@@ -26,7 +26,6 @@ id: string;
               .subscribe((producto:ProductoDescripcion)=>{
                 this.id=parametros['id'];
                 this.producto=producto;
-                //console.log(producto);
 
               });
         });
